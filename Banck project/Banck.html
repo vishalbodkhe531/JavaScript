@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <!-- model     -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Banck.css"/>
+</head>
+<body>
+    <div class="container">
+        <img src="./images/Bank_of_Maharashtra_logo.svg.png" alt="">
+        <!-- <h3>Banck of Maharastra</h3> -->
+        <form>
+        <div class="name">
+            <input type="text" placeholder = "Enter a name" id="name" required>
+            <input type="password" placeholder = "Enter IPC code" id="IPC" required>
+        </div>
+        <div class="account-no">
+            <input type="number" placeholder ="Enter a account number" id="account" required>
+            <input type="number"placeholder = "Enter Monny" id="Monny" required>
+        </div>
+        <button id="create">Create</button>
+        <button>Debit</button>
+    </form>
+        <ol id="ol">
+            <table border="2px" cellpadding="0" cellspacing="0">
+                <tr>
+                    <th>sr.no</th>
+                    <th>User name</th>
+                    <th>Amount</th>
+                    <th>IPC value</th>
+                    <th>Account-no</th>
+                </tr>
+            </table>
+        </ol>
+    </div>
+    <script src="/Banck project/Banck.js"></script>
+</body>
+</html>

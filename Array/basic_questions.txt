@@ -1,0 +1,13 @@
+1]   reverse the string words;
+==>   ex.., vishal Bodkhe === lahsiv ehkdoB;
+
+2]   make a function it say the given arhument Array or Object;
+
+3]   How to mt an array without useing arr = '';
+==>  arr.length = 0;
+
+4]   check the number is integer or float;
+==> 1)number.isInt(--) 2) number % 1 == 0;
+
+5]   dublicate the array;
+==> arr = [1,2,3] ==> [1,2,3,1,2,3];
