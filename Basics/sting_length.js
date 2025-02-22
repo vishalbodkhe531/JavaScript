@@ -1,4 +1,5 @@
-let str = prompt("Enter a string : ");
+// let str = prompt("Enter a string : ");
+let str = "vishal"
 let Size = 0;
 for(let i of str){
     Size++;

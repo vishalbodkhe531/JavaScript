@@ -1,0 +1,1 @@
+  no = Math.floor(no / 10);
