@@ -1,28 +1,12 @@
-// const setUser = (userName) => {
-//   this.userName = userName;
-// };
+const obj1 = {
+  name: "vishal",
+  age: 32,
+};
 
-// const createUser = (userName, email, password) => {
-//   this.email = email;
-//   this.password = password;
-//   //   this.userName = userName;
-// };
+const obj2 = {
+  phone: 9328746234,
+};
 
-// const firstUser = createUser("Ram", "ram@gmail.com", "123");
+const newObj = { ...obj1, obj2 };
 
-// console.log(firstUser);
-
-function setUser(userName) {
-  this.userName = userName;
-  console.log(userName);
-}
-
-function createUser(userName, email, password) {
-  setUser.call(this, userName);
-  this.email = email;
-  this.password = password;
-}
-
-const firstUser = new createUser("Ram", "ram@gmail.com", "123");
-
-console.log(firstUser);
+console.log(newObj);
