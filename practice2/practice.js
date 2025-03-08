@@ -1,12 +1,12 @@
-function setUser(userName) {
-  this.userName = userName;
-  this.email = email;
+const obj1 = {
+  name: "vishal",
+  age: 32,
+};
 
-  console.log(userName);
+const obj2 = {
+  phone: 9328746234,
+};
 
-  console.log(email);
-}
+const newObj = { ...obj1, obj2 };
 
-setUser.prototype.email = "ram"
-
-console.log(setUser());
+console.log(newObj);
